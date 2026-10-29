@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pooja Portfolio</title>
+<meta name="description" content="Portfolio of Pooja, an MCA student and fresher software developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <nav>
+    <a class="logo" href="#top">pooja<span>.dev</span></a>
+    <ul>
+      <li><a class="l" href="#about">About</a></li>
+      <li><a class="l" href="#skills">Skills</a></li>
+      <li><a class="l" href="#projects">Projects</a></li>
+      <li><a class="l" href="#education">Education</a></li>
+      <li><a class="l" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero" id="top">
+    <div>
+      <h1>Hi, I'm <em>Pooja</em>.</h1>
+      <p class="role">Software Developer · Fresher · MCA student</p>
+      <p class="lede">I build web and Android applications with Java, Python, JavaScript and PHP. I like turning a practical problem into software that people can use, from a code editor that runs four languages to a marketplace for farmers.</p>
+      <div class="cta">
+        <a class="btn" href="#projects">See my projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/pooja-acharya-9320623a4" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn ghost" href="https://github.com/poojaachar735-bit" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+
+    <div class="editor" aria-label="Profile shown as code">
+      <div class="tabs" role="tablist">
+        <button class="tab" role="tab" id="t-java" aria-selected="true" aria-controls="code">Pooja.java</button>
+        <button class="tab" role="tab" id="t-py" aria-selected="false" aria-controls="code">pooja.py</button>
+      </div>
+      <pre id="code" role="tabpanel" aria-labelledby="t-java"></pre>
+      <div class="run"><span class="dot"></span><span>output: <b id="out">Open to fresher roles</b></span></div>
+    </div>
+  </header>
+
+  <section id="about">
+    <p class="label">About</p>
+    <h2>BCA graduate, now doing an MCA.</h2>
+    <div class="about">
+      <div>
+        <p>I completed my Bachelor of Computer Applications in 2025 and am now pursuing a Master of Computer Applications at Poornaprajna Institute of Management, Udupi.</p>
+        <p>My academic projects cover a multi-language code editor, a College ERP System and an Android app. I am looking for an entry-level Software Developer role where I can apply what I know, keep learning new technologies and contribute to the team.</p>
+      </div>
+      <ul class="facts">
+        <li><span>Based in</span><span>Kundapura, Karnataka</span></li>
+        <li><span>Currently</span><span>MCA, Poornaprajna Institute</span></li>
+        <li><span>Looking for</span><span>Software Developer (fresher)</span></li>
+        <li><span>Strengths</span><span>Problem-solving, quick learning</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <p class="label">Skills</p>
+    <h2>What I work with.</h2>
+    <div class="skills">
+      <div class="group"><h3>Programming languages</h3><div class="chips"><span class="chip">Java</span><span class="chip">Python</span></div></div>
+      <div class="group"><h3>Web technologies</h3><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">PHP</span><span class="chip">Node.js</span></div></div>
+      <div class="group"><h3>Mobile development</h3><div class="chips"><span class="chip">Android Studio</span><span class="chip">XML</span></div></div>
+      <div class="group"><h3>Soft skills</h3><div class="chips"><span class="chip soft">Problem-solving</span><span class="chip soft">Teamwork</span><span class="chip soft">Quick learning</span><span class="chip soft">Adaptability</span></div></div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="label">Projects</p>
+    <h2>Things I have built.</h2>
+    <div class="projects">
+      <article class="proj">
+        <div class="pid">web / node</div>
+        <div>
+          <h3>Code Editor</h3>
+          <p>A single-platform online editor where users select a language and write and execute programs in Java, Python, C and C++, with a Node.js back end that runs the code and returns the output.</p>
+          <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Node.js</span></div>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="pid">web / php</div>
+        <div>
+          <h3>College ERP System</h3>
+          <p>An academic Enterprise Resource Planning web application that brings college operations into one digital system.</p>
+          <div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">PHP</span><span class="chip">JavaScript</span></div>
+        </div>
+      </article>
+      <article class="proj">
+        <div class="pid">android</div>
+        <div>
+          <h3>Agro-Mart</h3>
+          <p>An agriculture-focused Android application that connects farmers with agricultural products and services.</p>
+          <div class="chips"><span class="chip">Java</span><span class="chip">XML</span><span class="chip">Android Studio</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="education">
+    <p class="label">Education</p>
+    <h2>Where I studied.</h2>
+    <ol class="timeline">
+      <li><span class="yr">Present</span><div><h3>Master of Computer Applications (MCA)</h3><p>Poornaprajna Institute of Management, Udupi</p></div></li>
+      <li><span class="yr">2025</span><div><h3>Bachelor of Computer Applications (BCA)</h3><p>Dr. B. B. Hegde First Grade College, Kundapura</p></div></li>
+      <li><span class="yr">2023</span><div><h3>Pre-University Course (PUC), 12th Standard</h3><p>St. Mary's Syrian Pre-University College, Brahmavar</p></div></li>
+    </ol>
+
+    <h2 style="margin-top:56px">Certifications.</h2>
+    <div class="certs">
+      <div class="cert"><h3>Employability Skills Training</h3><p>Magic Bus India Foundation</p></div>
+      <div class="cert"><h3>Introduction to Business Intelligence</h3><p>Infosys Springboard</p></div>
+      <div class="cert"><h3>Java Online Assessment</h3><p>LearnTube</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <div>
+        <p class="label">Contact</p>
+        <h2>Let's talk about a role.</h2>
+        <p>I am available for fresher and entry-level software developer positions. Email is the quickest way to reach me.</p>
+      </div>
+      <div class="rows">
+        <div class="crow"><div><small>Email</small><a class="v" href="mailto:poojaachar735@gmail.com">poojaachar735@gmail.com</a></div><button class="copy" data-copy="poojaachar735@gmail.com">Copy</button></div>
+        <div class="crow"><div><small>Phone</small><a class="v" href="tel:+919886458387">+91 98864 58387</a></div><button class="copy" data-copy="+91 98864 58387">Copy</button></div>
+        <div class="crow"><div><small>GitHub</small><span class="v">github.com/poojaachar735-bit</span></div><a class="copy" href="https://github.com/poojaachar735-bit" target="_blank" rel="noopener noreferrer">Open</a></div>
+        <div class="crow"><div><small>LinkedIn</small><span class="v">linkedin.com/in/pooja-acharya-9320623a4</span></div><a class="copy" href="https://www.linkedin.com/in/pooja-acharya-9320623a4" target="_blank" rel="noopener noreferrer">Open</a></div>
+        <div class="crow"><div><small>Location</small><span class="v">Kundapura, Karnataka, India</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <footer><span>© 2026 Pooja</span><span class="mono">Built with HTML, CSS and JavaScript</span></footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
